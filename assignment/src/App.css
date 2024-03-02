@@ -1,0 +1,49 @@
+
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout {
+  padding: 10px;
+}
+
+
+.resizable-content {
+  padding: 8px;
+}
+
+button {
+  /* width: 150px; */
+  background-color: rgb(2, 2, 68);
+  color: white;
+  padding: 5px;
+  border-radius: 50px;
+}
+button:hover {
+  background-color: black;
+  transform: scale(1.1);
+}
+
+.count {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(168, 168, 245);
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.text {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
